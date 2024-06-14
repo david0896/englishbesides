@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
         <div className=' bg-[#705669] p-10'>
@@ -13,4 +13,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

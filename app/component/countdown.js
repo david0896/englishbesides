@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from 'react';
 
-const countdown = () => {
+const Countdown = () => {
 
       const [countdown, setCountdown] = useState({
         days: '00',
@@ -82,4 +82,4 @@ const countdown = () => {
   )
 }
 
-export default countdown
+export default Countdown

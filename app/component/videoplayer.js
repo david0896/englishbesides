@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import ReactPlayer from 'react-player';
  
- const videoplayer = () => {
+ const Videoplayer = () => {
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         setLoading(false);
@@ -22,4 +22,4 @@ import ReactPlayer from 'react-player';
     )
  }
  
- export default videoplayer
+ export default Videoplayer

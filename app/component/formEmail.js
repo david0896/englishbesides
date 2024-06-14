@@ -1,4 +1,4 @@
-const formEmail = () => {
+const FormEmail = () => {
   return (
     <>
         <div className="join">
@@ -9,4 +9,4 @@ const formEmail = () => {
   )
 }
 
-export default formEmail
+export default FormEmail
